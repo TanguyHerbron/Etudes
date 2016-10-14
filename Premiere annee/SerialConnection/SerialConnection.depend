@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1453371838 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/SerialConnection/main.c
+	<stdio.h>
+	<stdlib.h>
+	<termios.h>
+	<sys/fcntl.h>
+	<unistd.h>
+	<string.h>
+	<errno.h>
+

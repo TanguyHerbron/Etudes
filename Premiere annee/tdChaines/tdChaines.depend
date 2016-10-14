@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1444731522 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/tdChaines/main.c
+	<stdio.h>
+	<stdlib.h>
+

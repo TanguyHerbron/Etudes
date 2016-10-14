@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1452760230 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/stegano/main.c
+	"biblio.h"
+
+1452759611 /home/USERS/ELEVES/SNIR2015/therbron/workspace/stegano/biblio.h
+	<stdio.h>
+	<stdlib.h>
+
+1452760180 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/stegano/biblio.c
+	"biblio.h"
+

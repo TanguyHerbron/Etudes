@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1447758395 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/structure/main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblio.h"
+
+1447758826 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/structure/biblio.c
+	<stdio.h>
+	<stdlib.h>
+	"biblio.h"
+
+1447758910 /home/USERS/ELEVES/SNIR2015/therbron/workspace/structure/biblio.h
+

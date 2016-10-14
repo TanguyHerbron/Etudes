@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1452592392 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/conversionRLE/main.c
+	"biblio.h"
+
+1451983584 /home/USERS/ELEVES/SNIR2015/therbron/workspace/conversionRLE/biblio.h
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+
+1452592003 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/conversionRLE/biblio.c
+	"biblio.h"
+

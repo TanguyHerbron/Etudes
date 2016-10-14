@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1442304473 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/Jeu_revolu/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1449746881 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/sano/main.c
+	<stdio.h>
+	<stdlib.h>
+	"sao.h"
+
+1449747520 /home/USERS/ELEVES/SNIR2015/therbron/workspace/sano/sao.h
+
+1449746892 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/sano/sao.c
+	"sao.h"
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<string.h>
+	<sys/timeb.h>
+	<math.h>
+	<ctype.h>
+	<unistd.h>
+	<time.h>
+
+1449746881 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/sano/main.c
+	<stdio.h>
+	<stdlib.h>
+	"sao.h"
+
+1449747520 /home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/sano/sao.h
+
+1449746892 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/sano/sao.c
+	"sao.h"
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<string.h>
+	<sys/timeb.h>
+	<math.h>
+	<ctype.h>
+	<unistd.h>
+	<time.h>
+

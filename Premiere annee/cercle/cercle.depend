@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1456734572 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/cercle/main.c
+	<stdio.h>
+	<stdlib.h>
+	"cercle.h"
+
+1456738307 /home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/cercle/cercle.h
+	<math.h>
+
+1456738279 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/cercle/cercle.c
+	"cercle.h"
+	<stdio.h>
+	<stdlib.h>
+

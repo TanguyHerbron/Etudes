@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442311263 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/TP_station_meteo/main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1448527387 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/caveHunter/caveHunter.c
+	"caveHunter.h"
+	<sys/timeb.h>
+	<math.h>
+	<time.h>
+
+1448523376 /home/USERS/ELEVES/SNIR2015/therbron/workspace/caveHunter/caveHunter.h
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+
+1448527977 source:/home/USERS/ELEVES/SNIR2015/therbron/workspace/caveHunter/main.c
+	"caveHunter.h"
+
+1448527387 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/caveHunter/caveHunter.c
+	"caveHunter.h"
+	<sys/timeb.h>
+	<math.h>
+	<time.h>
+
+1448523376 /home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/caveHunter/caveHunter.h
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+
+1448527977 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/caveHunter/main.c
+	"caveHunter.h"
+

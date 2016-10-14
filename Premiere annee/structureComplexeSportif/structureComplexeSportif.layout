@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="biblio.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="282" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="biblio.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="97" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="17" />
+			<Collapse line="24" />
+			<Collapse line="28" />
+			<Collapse line="33" />
+			<Collapse line="47" />
+			<Collapse line="52" />
+			<Collapse line="54" />
+			<Collapse line="74" />
+			<Collapse line="95" />
+			<Collapse line="106" />
+			<Collapse line="128" />
+			<Collapse line="131" />
+			<Collapse line="133" />
+			<Collapse line="139" />
+			<Collapse line="147" />
+			<Collapse line="152" />
+			<Collapse line="158" />
+			<Collapse line="160" />
+			<Collapse line="186" />
+			<Collapse line="193" />
+			<Collapse line="197" />
+			<Collapse line="199" />
+			<Collapse line="203" />
+			<Collapse line="213" />
+			<Collapse line="217" />
+			<Collapse line="224" />
+			<Collapse line="229" />
+			<Collapse line="231" />
+			<Collapse line="233" />
+			<Collapse line="273" />
+			<Collapse line="284" />
+			<Collapse line="291" />
+			<Collapse line="293" />
+			<Collapse line="317" />
+			<Collapse line="331" />
+			<Collapse line="338" />
+			<Collapse line="341" />
+			<Collapse line="345" />
+			<Collapse line="351" />
+			<Collapse line="353" />
+			<Collapse line="357" />
+			<Collapse line="359" />
+			<Collapse line="362" />
+			<Collapse line="364" />
+		</Folding>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="305" topLine="0" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="0562cfa0566ff3cb0244395b00000002=0;structureComplexeSportif:main.c,*1;structureComplexeSportif:biblio.c,2;structureComplexeSportif:biblio.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=639;besth=464;minw=639;minh=464;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0562cfa0566ff3cb0244395b00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>
