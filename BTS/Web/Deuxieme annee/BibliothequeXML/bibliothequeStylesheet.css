@@ -1,0 +1,24 @@
+bibliotheque {
+    display: block; 
+}
+
+allee {
+    font-size: 25pt;
+    display: block;
+}
+
+rayon {
+    font-size: 15pt;
+    display: block; 
+}
+
+ouvrage {
+    display: block; 
+}
+
+titre {
+    display: block; 
+}
+
+auteur {
+}

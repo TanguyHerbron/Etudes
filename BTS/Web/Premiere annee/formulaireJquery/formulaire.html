@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link href="css/formJs.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset id="formulaire">
+                <legend>Formulaire d'inscription</legend>
+                <fieldset id="civilites">
+                    <legend>Civilités</legend>
+                    <label for="nom" id="label-nom">Nom</label>
+                    <input type="text" name="nom" id="nom" />
+                    <label for="prenom" id="label-prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" />
+                    <label for="ville" id="label-ville">Ville</label>
+                    <select name="ville" id="ville">
+                        <option>Autre</option>
+                        <option>Le Mans</option>
+                        <option>Paris</option>
+                    </select>
+                    <label for="email" id="label-email">Email</label>
+                    <input type="email" name="email" id="email" />
+                    <label for="siteweb" id="label-siteweb">Site </label>
+                    <input type="url" name="siteweb" id="siteweb" />
+                    <p id="sexe">Sexe :</p>
+                    <label for="femme" id="label-femme">Féminin</label>
+                    <input type="radio" name="sexe" id="femme" />
+                    <label for="homme" id="label-homme">Masculin</label>
+                    <input type="radio" name="sexe" id="homme" />                    
+                    <label for="nc" id="label-nc">Je ne souhaite pas le dire</label>
+                    <input type="radio" name="sexe" id="nc" />
+                    <label for="photo" id="label-photo">Photo</label>
+                    <input type="file" name="photo" id="photo" />
+                </fieldset>
+                <fieldset id="savoirs">
+                    <legend>Savoirs</legend>
+                    <label for="os" id="label-os">Système d'exploitation</label>
+                    <select name="os" id="os" >
+                        <option>Sélectionnez un SE</option>
+                        <option value="win">WINDOWS</option>
+                        <option value="lin">LINUX</option>
+                        <option value="mac">MAC OS</option>
+                    </select>
+                    <label for="version" id="label-version">Version</label>
+                    <select id="version" name="version">
+                        
+                    </select>
+                    <p id="langages">Langages de programmation</p>
+                    <label for="java" id="label-java">JAVA</label>
+                    <input type="checkbox" name="java" id="java" />
+                    <label for="c" id="label-c">C</label>
+                    <input type="checkbox" name="c" id="c" />
+                    <label for="php" id="label-php">PHP</label>
+                    <input type="checkbox" name="php" id="php" />
+                    <label for="autre" id="label-autre">Autre</label>
+                    <input type="checkbox" name="autre" id="autre" />
+                </fieldset>
+                <fieldset id="parametres">
+                    <legend>Paramètres de connexion</legend>
+                    <label for="login" id="label-login">Login</label>
+                    <input type="text" name="login" id="login" />
+                    <label for="mdp" id="label-mdp">Mot de passe</label>
+                    <input type="password" name="mdp" id="mdp" />
+                    <div id="erreur">Les champs "mot de passe" et "confirmation de mot de passe" ne sont pas identiques.</div>
+                    <label for="mdp2" id="label-mdp2">Confirmation du mot de passe</label>
+                    <input type="password" name="mdp2" id="mdp2" />
+                </fieldset>
+                <input type="button" name="inscription" id="inscription" value="Inscription" />
+                <input type="reset" name="clean" id="clean" value="Effacer les informations de ce formulaire" />
+                       
+            </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

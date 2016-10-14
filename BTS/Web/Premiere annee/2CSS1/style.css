@@ -1,0 +1,18 @@
+.p1{
+    color: red;
+    font: uppercase;
+}
+
+.p1 + .p2{
+    color: blue;
+    font-weight: bold;
+}
+
+.p2 + .p3{
+    color: yellow;
+    font-style: italic;
+}
+
+body{
+    background-color: #999999
+}

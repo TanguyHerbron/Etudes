@@ -1,0 +1,28 @@
+/*body { width:600px; margin-left:auto; margin-right:auto; }
+form { background-color:#efefef; }
+.under { text-decoration:underline; }*/
+
+.page-header{
+    border-bottom: double 6px black;
+}
+
+.page-title{
+    font-family: sans-serif;
+}
+
+.content{
+    position: absolute;
+    left: 30%;
+}
+
+.tableTitle{
+    color: white;
+    background-color: #3465A4;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tableResult{
+    background-color: #3465A4;
+    color: white;
+}

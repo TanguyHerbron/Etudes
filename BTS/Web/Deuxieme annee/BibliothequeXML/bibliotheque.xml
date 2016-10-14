@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM "bibliotheque.dtd">
+<?xml-stylesheet href="bibliotheque.xsl" type="text/xsl" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<bibliotheque>
+    <allee numero="1">
+        <rayon numero="1">
+            <ouvrage>
+                <titre>Le papillon des étoiles</titre>
+                <auteur>Bernard Werber</auteur>
+            </ouvrage>
+            <ouvrage type="manuelScolaire">
+                <titre>Les Formes de base</titre>
+                <auteur>Daniel Dumont</auteur>
+            </ouvrage>
+            <ouvrage type="scienceEtTechnique">
+                <titre>XML et XSL : Les feuilles de style XML</titre>
+                <auteur>Cyril Vincent</auteur>
+            </ouvrage>
+        </rayon>
+        <rayon numero="2">
+            <ouvrage type="periodique">
+                <titre>LINUX Magazine</titre>
+                <numero>102</numero>
+            </ouvrage>
+            <ouvrage type="periodique">
+                <titre>Closer</titre>
+            </ouvrage>
+            <ouvrage>
+                <titre>Harry Potter</titre>
+                <auteur>JK Rollin</auteur>
+                <numero>1</numero>
+            </ouvrage>
+        </rayon>
+    </allee>
+    <allee numero="2">
+        <rayon numero="1">
+            <ouvrage>
+                <titre>Jeu de nains</titre>
+                <auteur>Terry Pratchett</auteur>
+                <numero>31</numero>
+            </ouvrage>
+        </rayon>
+        <rayon numero="2">
+            <ouvrage>
+                <titre>Foundation</titre>
+                <auteur>Isaac Asimov</auteur>
+                <numero>2</numero>
+            </ouvrage>
+            <ouvrage type="scienceEtTechnique">
+                <titre>Ajax, jQuerry et PHP</titre>
+                <auteur>Jean-Marie Defrance</auteur>
+            </ouvrage>
+        </rayon>
+    </allee>
+</bibliotheque>

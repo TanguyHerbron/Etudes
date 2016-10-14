@@ -1,0 +1,17 @@
+.para1
+{
+    text-indent: 50px;
+    border: double 3px black;
+    text-transform: uppercase;
+}
+
+.para2::first-letter
+{
+    font-size: 32px;
+    color:red;
+}
+
+.para2::first-line
+{
+    text-transform: uppercase;
+}

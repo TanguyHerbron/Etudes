@@ -1,0 +1,123 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="login.js"></script>
+    </head>
+   <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Nauk</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Nauk</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Enregistrer</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>
+            <img alt="Raspberry" src="image/raspberry.png" width="77" height="91">
+            GPIO
+            <img alt="Raspberry" src="image/raspberry.png" width="77" height="91">
+        </h1>
+        <p>Une belle page pour mon GPIO.</p>  
+        <form method="post" action="/cgi-bin/cde_del3.cgi" onsubmit="javascript:submit_pass();" name="form2" id="form2">
+        <div style="width: 320px">GPIO 02
+                 <input class="btn btn-default" name="GPIO2" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO2" value="0" type="submit"><br>
+                 GPIO 04
+                 <input class="btn btn-default" name="GPIO4" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO4" value="0" type="submit"><br>
+                 GPIO 25
+                 <input class="btn btn-default" name="GPIO25" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO25" value="0" type="submit"><br>
+                 GPIO 24
+                 <input class="btn btn-default" name="GPIO24" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO24" value="0" type="submit"><br>
+                 GPIO 23
+                 <input class="btn btn-default" name="GPIO23" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO23" value="0" type="submit"><br>
+                 GPIO 22
+                 <input class="btn btn-default" name="GPIO22" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO22" value="0" type="submit"><br>
+                 GPIO 27
+                 <input class="btn btn-default" name="GPIO27" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO27" value="0" type="submit"><br>
+                 GPIO 18
+                 <input class="btn btn-default" name="GPIO18" value="1" type="submit">
+                 <input class="btn btn-default" name="GPIO18" value="0" type="submit"><br>
+								<br>
+                 Passwd
+                 <input name="Passwd" type="password"><br>
+                 <br>
+                 </div>
+                 <input name="md5" value="" type="hidden">
+		 <input name="modifie" value="original" type="hidden">
+        </form>
+        <p><a class="btn btn-primary btn-lg" href="/index.html" role="button">Acceuil &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <p>&copy; Nauk 2015</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

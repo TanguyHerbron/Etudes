@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+
+<!ELEMENT rio (tableau)>
+<!ELEMENT tableau (pays*)>
+<!ELEMENT pays (medaille, medaille, medaille)>
+<!ELEMENT medaille (#PCDATA)>
+<!ATTLIST pays 
+    nomDePays (USA|Grande-Bretagne|Chine|Russie|Allemagne|Japon|France|Corée_du_Sud|Italie|Australie) #REQUIRED>
+<!ATTLIST medaille
+    typeDeMedaille (Or|Argent|Bronze|Total) #REQUIRED> 
+

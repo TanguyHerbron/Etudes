@@ -1,0 +1,17 @@
+.gif:hover{
+    background-color: black;
+}
+
+.link{
+    background: url("gnar.jpg");
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+}
+
+.link:hover{
+    background: url("gnarbig.jpg");
+    display: inline-block;
+    min-width: 500px;
+    min-height: 500px;
+}

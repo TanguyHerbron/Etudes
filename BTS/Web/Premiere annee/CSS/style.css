@@ -1,0 +1,13 @@
+body{
+    background-color: #99cc00;
+}
+
+h1{
+    text-align:center;
+    color: #669900;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: square;
+}

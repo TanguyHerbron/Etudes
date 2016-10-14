@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 mars 2016, 09:45:00
+    Author     : dbernard
+*/
+
+#divTest{
+    border: black ridge 1px;    
+    width: 300px;
+    height: 22px;
+    text-align: center;
+}
+
+#zoneTest
+{
+    padding: 100px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#zoneBordure
+{
+    width: 350px;
+    border-radius: 20px;
+}
+
+#zoneOmbre
+{
+    width: 350px;
+    border-radius: 20px;
+}
+
+#zoneDiv{
+    width: 350px;
+    border-radius: 20px;
+}
+
+#miseAJour{
+    display: none;
+}

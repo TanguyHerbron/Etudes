@@ -1,0 +1,269 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 mars 2014, 16:20:12
+    Author     : dbernard
+*/
+
+/* les fieldsets */
+#formulaire{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 950px;
+    height: 450px;
+    background-color: #dddddd;
+}
+
+#civilites{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 350px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+#savoirs{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    width: 500px;
+    height: 250px;
+    background-color: #ccffcc;
+}
+#parametres{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    width: 880px;
+    height: 100px;
+    background-color: lemonchiffon;
+}
+/* elements de civilite */
+#label-nom{
+    position: absolute;
+    left: 10px;    
+    top: 10px;
+}
+
+#nom{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+#label-prenom{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+#prenom{
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+#label-ville{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}
+#ville{
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+
+#label-email{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+#email{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+
+#label-siteweb{
+    position: absolute;
+    left: 10px;
+    top: 130px;
+}
+#siteweb{
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+
+#sexe{
+    position: absolute;
+    left: 10px;
+    top: 160px;
+}
+#label-homme{
+    position: absolute;
+    left: 95px;
+    top: 160px;
+}
+#homme{
+    position: absolute;
+    left: 70px;
+    top: 160px;
+}
+#label-femme{
+    position: absolute;
+    left: 95px;
+    top: 180px;
+}
+#femme{
+    position: absolute;
+    left: 70px;
+    top: 180px;
+}
+#label-nc{
+    position: absolute;
+    left: 95px;
+    top: 200px;
+}
+#nc{
+    position: absolute;
+    left: 70px;
+    top: 200px;
+}
+#label-photo{
+      position: absolute;
+    left: 10px;
+    top: 225px;
+    
+}
+
+#photo{
+     position: absolute;
+    left: 80px;
+    top: 225px;
+}
+
+
+
+/*savoirs*/
+#label-os{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#os{
+    position: absolute;
+    top: 30px;
+    left: 210px;    
+}
+#label-version{
+    position: absolute;
+    top: 10px;
+    left: 355px;
+}
+#version{
+    position: absolute;
+    top: 30px;
+    left: 370px;    
+}
+#langages{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+#label-java{
+    position: absolute;
+    top: 100px;
+    left: 40px;    
+}
+#java{
+    position: absolute;
+    top: 100px;
+    left: 10px;        
+}
+#label-c{
+    position: absolute;
+    top: 125px;
+    left: 40px;    
+}
+#c{
+    position: absolute;
+    top: 125px;
+    left: 10px;        
+}
+#label-php{
+    position: absolute;
+    top: 150px;
+    left: 40px;    
+}
+#php{
+    position: absolute;
+    top: 150px;
+    left: 10px;        
+}
+#label-autre{
+    position: absolute;
+    top: 175px;
+    left: 40px;    
+}
+#autre{
+    position: absolute;
+    top: 175px;
+    left: 10px;        
+}
+/*parametres*/
+#label-login{
+    position: absolute;
+    left: 10px;    
+    top: 10px;
+}
+
+#login{
+    position: absolute;
+    left: 280px;
+    top: 10px;
+}
+#label-mdp{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+#mdp{
+    position: absolute;
+    left: 280px;
+    top: 40px;
+}
+#label-mdp2{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}
+#mdp2{
+    position: absolute;
+    left: 280px;
+    top: 70px;
+}
+
+/*boutons*/
+#inscription{
+    position: absolute;
+    top: 425px;
+    left: 120px;
+}
+#clean{
+    position: absolute;
+    top: 425px;
+    left: 230px;
+}
+
+/*erreurs mdp*/
+#erreur{
+    position: absolute;
+    left: 460px;
+    top: 45px;
+    background-color: indianred;
+    border-radius: 5px;
+    visibility: hidden;
+}

@@ -1,0 +1,5 @@
+div p:first-child{
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 50px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style type="text/css" >
+            body { width:600px; margin-left:auto; margin-right:auto; }
+            form { background-color:#efefef; }
+            .under { text-decoration:underline; }
+        </style>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1><strong>User Registration</strong></h1>
+        </div>
+        <div>
+            <a>Please complete the following form to register with our site:</a><br />
+        </div>
+        <div>
+            <form action="http://example.com" method="get">
+                <fieldset accesskey="Y">
+                    <legend>About <a class="under">Y</a>ou(ALT + Y)</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="user_name">User name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="user_name" id="user_name"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="password" id="password"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="check_password">Confirm Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="check_password" id="check_password"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="first_name">First name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="first_name" id="first_name"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last_name">Last name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="last_name" id="last_name"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mail">Email address:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="mail" id="mail"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <input type="checkbox" name="male" value="1">Male<br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <input type="checkbox" name="female" value="2">Female<br />
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset accesskey="U">
+                    <legend>About <a class="under">U</a>s (ALT + U)</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="hear">How did you hear about us ?</label></td>
+                            <td>
+                                <select id="hear">
+                                    <option>Select answer</option>
+                                    <option> Family </option>
+                                    <option> Internet </option>
+                                    <option> Newspaper </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Please select this box if you wish to be added to our mailing list.</a>
+                                <div>
+                                    <small>We will not pass on your details to any third party.</small>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="mailing" value="3" />
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            <input type="submit" name="register" value="Register now" />
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rio SYSTEM "rio.dtd">
+<?xml-stylesheet href="rio.xsl" type="text/xsl" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<rio>
+    <tableau>
+        <pays nomDePays="USA">
+            <medaille typeDeMedaille="Or">46</medaille>
+            <medaille typeDeMedaille="Argent">37</medaille>
+            <medaille typeDeMedaille="Bronze">38</medaille>
+        </pays>
+        <pays nomDePays="Grande-Bretagne">
+            <medaille typeDeMedaille="Or">27</medaille>
+            <medaille typeDeMedaille="Argent">23</medaille>
+            <medaille typeDeMedaille="Bronze">17</medaille>
+        </pays>
+        <pays nomDePays="Chine">
+            <medaille typeDeMedaille="Or">26</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">26</medaille>
+        </pays>
+        <pays nomDePays="Russie">
+            <medaille typeDeMedaille="Or">19</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">19</medaille>
+        </pays>
+        <pays nomDePays="Allemagne">
+            <medaille typeDeMedaille="Or">17</medaille>
+            <medaille typeDeMedaille="Argent">10</medaille>
+            <medaille typeDeMedaille="Bronze">15</medaille>
+        </pays>
+        <pays nomDePays="Japon">
+            <medaille typeDeMedaille="Or">12</medaille>
+            <medaille typeDeMedaille="Argent">8</medaille>
+            <medaille typeDeMedaille="Bronze">21</medaille>
+        </pays>
+        <pays nomDePays="France">
+           <medaille typeDeMedaille="Or">10</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">14</medaille>
+        </pays>
+        <pays nomDePays="Corée_du_Sud">
+            <medaille typeDeMedaille="Or">9</medaille>
+            <medaille typeDeMedaille="Argent">3</medaille>
+            <medaille typeDeMedaille="Bronze">9</medaille>
+        </pays>
+        <pays nomDePays="Italie">
+            <medaille typeDeMedaille="Or">8</medaille>
+            <medaille typeDeMedaille="Argent">12</medaille>
+            <medaille typeDeMedaille="Bronze">8</medaille>
+        </pays>
+        <pays nomDePays="Australie">
+            <medaille typeDeMedaille="Or">8</medaille>
+            <medaille typeDeMedaille="Argent">11</medaille>
+            <medaille typeDeMedaille="Bronze">10</medaille>
+        </pays>
+    </tableau>
+</rio>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT ordinateur (cm+, psu+, boitier+)>
+<!ELEMENT cm (nom?, socket?, ram+, cpu+, gpu*)>
+<!ATTLIST cm
+    marque (ASRock|ASUS|EVGA|GygaByte|MSI|Autre) #REQUIRED
+>
+<!ELEMENT ram (marque?, nom?, frequence?, capacite?)>
+<!ELEMENT cpu (nom?, frequence?, socket?)>
+<!ATTLIST cpu
+    marque (Intel|AMD|Autre) #REQUIRED
+>
+<!ELEMENT gpu (fabriquant?, marque?, nom?, frequence?, vram?)>
+<!ELEMENT psu (marque?, nom?, puissance?, modulaire?, certification?)>
+<!ELEMENT boitier (marque?, nom?, fenetre?)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT socket (#PCDATA)>
+<!ELEMENT frequence (#PCDATA)>
+<!ELEMENT capacite (#PCDATA)>
+<!ELEMENT fabriquant (#PCDATA)>
+<!ELEMENT puissance (#PCDATA)>
+<!ELEMENT modulaire (#PCDATA)>
+<!ELEMENT certification (#PCDATA)>
+<!ELEMENT fenetre (#PCDATA)>
+<!ATTLIST __ROOT__ version CDATA #REQUIRED>
+

@@ -1,0 +1,28 @@
+table, td{
+     border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    width: 100px;
+}
+
+.col1{
+    background-color: #33ccff
+}
+
+.col2{
+    background-color: #0033cc
+}
+
+td:hover{
+    font-weight: bold;
+    background-color: white;
+}

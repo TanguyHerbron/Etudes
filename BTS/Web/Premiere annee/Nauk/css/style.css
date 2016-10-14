@@ -1,0 +1,21 @@
+a.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-div{
+    position: relative;
+    padding: 15px;
+    font-family: 'H0bbyofnightRegular';
+}
+
+.btn-outline{
+    margin-top: 15px;
+    border: 2px solid lightblue;
+    font-size: 20px;
+    background: transparent none repeat scroll 0px 0px;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.btn-outline:hover{
+    background: lightgrey none repeat scroll 0px 0px;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordinateur SYSTEM "informatique.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ordinateur>
+    <cm marque="MSI">
+        <nom>z97 gaming 3</nom>
+        <socket>1150</socket>
+        <ram>
+            <marque>Kingston</marque>
+            <nom>HyperX Performance</nom>
+            <frequence>1866 MHz</frequence>
+            <capacite>16 Go</capacite>
+        </ram>
+        <cpu marque="Intel">
+            <nom>I5 4690k</nom>
+            <frequence>4.5 GHz</frequence>
+            <socket>1150</socket>
+        </cpu>
+        <gpu>
+            <fabriquant>NVidia</fabriquant>
+            <marque>MSI</marque>
+            <nom>GTX 970</nom>
+            <frequence>1279 MHz</frequence>
+        </gpu>
+    </cm>
+    <psu>
+        <marque>Seasonic</marque>
+        <nom>M12II</nom>
+        <puissance>520W</puissance>
+        <modulaire>Non</modulaire>
+        <certification>80+ Bronze</certification>
+    </psu>
+    <boitier>
+        <marque>Advance</marque>
+        <nom>Dark Trooper</nom>
+        <fenetre>Oui</fenetre>
+    </boitier>
+</ordinateur>

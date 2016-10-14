@@ -1,0 +1,19 @@
+.gras{
+    list-style-type: circle;
+}
+
+.italique{
+    list-style-type: disc;
+}
+
+.normal{
+    list-style-type: square;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}

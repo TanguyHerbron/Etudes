@@ -1,0 +1,330 @@
+/*Id jours*/
+
+#lundi{
+    background-color: #D0D0D0;
+    display: inline-block;
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#mardi{
+    background-color: #C0C0C0;
+    display: inline-block;
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+#mercredi{
+    background-color: #B0B0B0;
+    display: inline-block;
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+#jeudi{
+    background-color: #A0A0A0;
+    display: inline-block;
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+#vendredi{
+    background-color: #909090;
+    display: inline-block;
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+/*Id heures*/
+
+#huit{
+    background-color: #FFDCDC;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#neuf{
+    background-color: #FFCACA;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#dix{
+    background-color: #FFB9B9;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#onze{
+    background-color: #FFA8A8;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#douze{
+    background-color: #FF9696;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#treize{
+    background-color: #FF8484;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#quatorze{
+    background-color: #FF7373;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#quinze{
+    background-color: #FF6262;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#seize{
+    background-color: #FF5050;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#dixsept{
+    background-color: #E64848;
+    border: 3px solid black;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+/*Classs jour*/
+
+.lundi{
+    position: absolute;
+    left: 160px;
+}
+
+.mardi{
+    position: absolute;
+    left: 320px;
+}
+
+.mercredi{
+    position: absolute;
+    left: 480px;
+}
+
+.jeudi{
+    position: absolute;
+    left: 640px;
+}
+
+.vendredi{
+    position: absolute;
+    left: 800px;
+}
+
+/*Class heures*/
+
+.huitHeure{
+    
+}
+
+.huitHeureTrente{
+    position: absolute;
+    top: 70px;
+}
+
+.neufHeure{    
+    position: absolute;
+    top: 107px;
+}
+
+.dixHeure{  
+    position: absolute;
+    top: 177px;
+}
+
+.douzeHeure{
+    position: absolute;
+    top: 315px;    
+}
+
+.treizeHeureTrente{
+    position: absolute;
+    top: 410px;     
+}
+
+.quatorzeHeure{
+    position: absolute;
+    top: 450px;
+}
+
+.quinzeHeure{
+    position: absolute;
+    top: 520px;
+}
+
+.seizeHeure{
+    position: absolute;
+    top: 590px;
+}
+
+/*Class matières*/
+
+.anglais{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #FFFF00;
+}
+
+.informatique{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #6699FF;
+}
+
+.physique{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #99FF99;
+}
+
+.math{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #FF99FF;
+}
+
+.francais{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #CC0099;
+}
+
+.vieEnt{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    background-color: #FF0000;
+}
+
+/*Class durée*/
+
+.uneHeure{
+    height: 60px;    
+}
+
+.uneHeureTrente{
+    height: 100px;
+    line-height: 35px;
+}
+
+.deuxHeures{
+    height: 130px;
+    line-height: 40px;
+}
+
+.troisHeures{
+    height: 200px;
+    line-height: 50px;
+}
+
+.quatreHeures{
+    height: 270px;
+    line-height: 60px;
+}
+
+/*Class groupes*/
+
+.classeEntiere{
+    width: 150px;
+}
+
+.demiGroupe{
+    width: 70px;
+}
+
+/*Class groupes jours*/
+
+.mardig1{
+    position: absolute;
+    left: 320px;
+}
+
+.mercredig1{
+    position: absolute;
+    left: 480px;
+}
+
+.jeudig1{
+    position: absolute;
+    left: 640px;
+}
+
+.vendredig1{
+    position: absolute;
+    left: 800px;
+}
+
+.mardig2{
+    position: absolute;
+    left: 400px;
+}
+
+.mercredig2{
+    position: absolute;
+    left: 560px;    
+}
+
+.jeudig2{
+    position: absolute;
+    left: 720px;
+}
+
+.vendredig2{
+    position: absolute;
+    left: 880px;
+}
+
+
+
+div{
+    text-align: center;
+}

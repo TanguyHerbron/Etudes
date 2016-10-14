@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/apigooglemap.js"></script>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    
+  </head>
+  <body>
+      <div id="map-canvas">
+      </div>
+      <form>
+          <div class="gmnoprint">
+              <input class="btn" type="button" id="afficherLycee" value="Centrer sur le lycée"/>
+              <input class="btn" type="button" id="afficherMaison" value="Centrer sur ma maison"/>
+          </div>
+          <br>
+          <div class="grp-btn">
+              <input type="text" name="adresse" id="adresse"/>
+              <input class="btn" type="button" id="soumettreAdresse" value="Soumettre mon adresse"/>
+          </div>
+      </form>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/changeStyle.css" type="text/css" rel="stylesheet" />
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/changeStyle.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <form id="customisation">
+                <fieldset id="zoneBordure">
+                    <legend>bordure du cadre</legend>
+                    <label for="couleurBordure">couleur bordure</label>
+                    <input type="color" name="couleurBordure" id="couleurBordure" />
+                    <br/>
+                    <label for="largeurBordure">largeur bordure</label>
+                    <input type="number" min="0" max="10" name="largeurBordure" id="largeurBordure" value="1"/>
+                    <br/>
+                    <label for="courbeBordure">courbure bordure</label>
+                    <input type="number" min="0" max="20" name="courbeBordure" id="courbeBordure" value="1"/>
+                    <br/>
+                    <label for="styleBordure">style bordure</label>
+                    <select name="styleBordure" id="styleBordure">
+                        <option value="ridge">ridge</option>
+                        <option value="solid">solid</option>
+                        <option value="groove">groove</option>
+                    </select>
+                </fieldset>
+
+                <fieldset id="zoneOmbre">
+                    <legend>ombre du cadre</legend>
+                    <label for="ombreDecalH">décalage horizontal</label>
+                    <input type="number" min="0" max="100" name="ombreDecalH" id="ombreDecalH" value="0"/>
+                    <br/>
+                    <label for="ombreDecalV">décalage vertical</label>
+                    <input type="number" min="0" max="100" name="ombreDecalV" id="ombreDecalV" value="0"/>
+                    <br/>
+                    <label for="ombreDistFlou">distance de flou</label>
+                    <input type="number" min="0" max="100" name="ombreDistFlou" id="ombreDistFlou" value="0"/><br/>
+                    <label for="ombreTaille">taille de l'ombre</label>
+                    <input type="number" min="0" max="100" name="ombreTaille" id="ombreTaille" value="0"/>
+                    <br/>
+
+                    <label for="ombreCouleur">couleur ombre</label>
+                    <input type="color" name="ombreCouleur" id="ombreCouleur" />
+                </fieldset>
+                <fieldset id="zoneDiv">
+                    <legend>caractéristique du div</legend>
+                    <label for="textDiv">texte du div</label>
+                    <input type="text" name="textDiv" id="textDiv" value=""/>
+                    <br/>
+                    <label for="tailleDiv">taille du div</label>
+                    <input type="number" min="0" max="1000" name="tailleDiv" id="tailleDiv" value="0"/>
+                </fieldset>
+                <input type="button" name="miseAJour" id="miseAJour" value="Appliquer le style" />
+                <fieldset id="zoneTest">
+                    <legend>div de test</legend>
+                    <div id="divTest">div de test</div>
+                </fieldset>
+
+            </form>
+
+        </div>
+    </body>
+</html>

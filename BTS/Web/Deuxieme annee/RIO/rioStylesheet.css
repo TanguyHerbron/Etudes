@@ -1,0 +1,87 @@
+/* Cascade style sheet based on rio.dtd DTD */
+rio { 
+    display: block; 
+}
+tableau { 
+    display: block;
+}
+pays { 
+    display: block;
+}
+medaille { 
+    display: block; 
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 150px;
+}
+
+tr {
+    background-color: yellow;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color: chocolate;
+}
+
+.usa {
+    background-color: aqua;
+}
+
+.gb {
+    background-color: aquamarine;
+}
+
+.chine {
+    background-color: khaki;
+}
+
+.russie {
+    background-color: hotpink;
+}
+
+.allemagne {
+    background-color: deepskyblue;
+}
+
+.japon {
+    background-color: dodgerblue;
+}
+
+.france {
+    background-color: coral;
+}
+
+.cds {
+    background-color: lightgreen;
+}
+
+.italie {
+    background-color: lightcoral;
+}
+
+.australie {
+    background-color: mediumorchid;
+}
+
+.entreeTableau {
+    background-color: yellow;
+}
+
+.total {
+    background-color: white;
+}

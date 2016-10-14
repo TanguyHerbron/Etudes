@@ -1,0 +1,15 @@
+img + p{
+    font-style: italic;
+    border: 1px solid black;
+    border-style: dotted;
+}
+
+.pPrecedent{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+img{
+    border: double 5px black;
+}

@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 mars 2016, 08:39:46
+    Author     : therbron
+*/
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#map-canvas
+{
+    height: 600px;
+    width: 800px;
+}
+
+.btn
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 2px;
+}
+
+.grp-btn
+{
+    top: 630px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

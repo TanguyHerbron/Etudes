@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="www.example.com" method="get">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" />
+            </div>
+            <div>
+                <label for="prenom">Prenom :</label>
+                <input type="text" id="prenom" />
+            </div>            
+            <div>
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" />
+            </div>   
+            <div>
+                <label for="code_postal">Code Postal :</label>
+                <input type="text" id="code_postal" />
+            </div>   
+            <div>
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" />
+            </div>   
+            <div>
+                <label for="telephone">Téléphone :</label>
+                <input type="text" id="telephone" />
+            </div>   
+            <div>
+                <label for="profession">Profession</label>
+                <select id="profession">
+                    <option> Web Designer </option>
+                    <option> Patissier</option>
+                    <option> Boulanger</option>
+                </select>
+            </div>
+            <div>
+                <a>Niveau d'études</a><br />
+                <input type="checkbox" name="etude1" value="1" />Bac<br />
+                <input type="checkbox" name="etude2" value="2" />Bac+3<br />
+                <input type="checkbox" name="etude3" value="3" />Bac+5<br />
+            </div>
+            <div>
+                <a>Cochez cette case pour autoriser le transfert de vos coordonnées </a>
+                <input type="checkbox" name="donnees" value="4" />
+            </div>
+            <div>
+                <a>Compétences</a><br />
+                <input type="checkbox" name="competences1" value="5" />Vidéo<br />
+                <input type="checkbox" name="competences2" value="6" />Son<br />
+                <input type="checkbox" name="competences3" value="7" />Informatique<br />
+            </div>
+            <div>
+                <input type="submit" name="envoyer" value="Envoyer" />
+            </div>
+        </form>
+    </body>
+</html>

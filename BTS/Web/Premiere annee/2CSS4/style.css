@@ -1,0 +1,13 @@
+p img{
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+p em{
+    font-weight: bold;
+}
+
+p strong{
+    font-style: italic;
+}

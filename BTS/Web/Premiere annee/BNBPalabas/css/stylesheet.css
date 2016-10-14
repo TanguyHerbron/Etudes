@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 mars 2016, 11:21:15
+    Author     : therbron
+*/
+
+div.menubar{
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+}
+
+div.menubar:hover{
+    box-shadow: 0px 0px 20px 5px green;
+    border-radius: 10px;
+}
+
+div.menucol{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 120px;
+    position: relative;
+    display: table;
+}
+
+div.menucol:hover{
+    color: black;
+}
+
+div.bouton1:hover{
+    background-color: green;
+}
+
+div.bouton2:hover{
+    background-color: lightgreen;
+}
+
+div.bouton3:hover{
+    background-color: cyan;
+}
+
+div.bouton4:hover{
+    background-color: deepskyblue;
+}
+
+div.bouton5:hover{
+    background-color: pink;
+}
+
+div.cochon{
+    background: linear-gradient(to left, white, green);
+    position: absolute;
+    top: 90px;
+    left: 175px;
+    height: 600px;
+}
+
+img.cochon{
+    transform: scale(0.2, 0.2);
+    position: relative;
+    top: 160px;
+}
+
+div.piece{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    left: 350px;
+    animation: tomber 2s linear 0s infinite normal;
+}
+
+@keyframes tomber{
+    0% {top: 0px; background: goldenrod;}
+    100% {top: 490px; background: yellow;}
+}
+
+img.logo{
+    position: relative;
+    z-index: -1;
+}
