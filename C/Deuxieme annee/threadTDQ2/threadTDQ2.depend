@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1475661104 source:/home/USERS/ELEVES/SNIR2015/therbron/Workspace/C/threadTDQ2/main.c
-	<stdio.h>
-	<unistd.h>
-	<stdlib.h>
-	<string.h>
-	<pthread.h>
-
