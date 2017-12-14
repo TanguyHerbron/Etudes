@@ -7,7 +7,7 @@ int main()
 {
     int largeur,hauteur,nbCouleur;
 
-    FILE *pPicture = fopen("/home/USERS/ELEVES/SNIR2015/imgBMP/image256Couleurs.bmp", "r");
+    FILE *pPicture = fopen("chemin/vers/un/fichier/bmp", "r");
 
     if(errno != NULL){
         printf("Erreur fichier : erreur n'%d\n", errno);
