@@ -28,9 +28,24 @@ Une grande majorité de notions vues en programmation et en architecture des sys
 
 | Notion                   | Environnement    | Commentaires  |
 | -------------------------|------------------|---------------|
-| Fork                     | Linux            | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/bonhommeFork.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/testFork2.c)
+| Structure                |  C/C++           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structure)
+| Accsè fichier            |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/accesFichier)
+| Arguments                |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/argument1.c)
+| Fork                     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/bonhommeFork.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/testFork2.c)
 | Pipe (Tube)              | Linux            | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/popen.c)
 | Signaux                  |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/signauxQ1.c)
+
+
+
+# Bonus
+
+Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vous intéresser/compléter certaines notions.
+
+| Notion                   | Environnement    | Commentaires  |
+| -------------------------|------------------|---------------|
+| Communication série      |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/serialConnection.c)
+| FSeek (Curseur)          |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/utilisationFseek.c)
+| Affichage customisé <br> Structures avancées <br> Pointeurs avancés <br> Allocation dynamique     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structureComplexeSportif)
 
 <!-- TOOLBOX 
 0%-25% > Rouge https://img.shields.io/badge/commentaire-0%25-b70b0b.svg
