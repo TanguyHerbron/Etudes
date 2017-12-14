@@ -2,11 +2,24 @@
 
 Bienvenue sur le repository comportant 90% des codes que j'ai pu faire pendant mes 2 années de BTS en plus des années en cours d'ENSIM.
 
-# Languages
+# Projets
 
-| Nom            | Status | Liens |
-| --------------------- | -------- |--------|
-| C          |  Linux    | [![Commentaires](https://img.shields.io/badge/commentaire-0%25-b70b0b.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C)
-| C++          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getmonero.org/png?builder=monero-static-ubuntu-amd64)](https://build.getmonero.org/builders/monero-static-ubuntu-amd64)
-| Java          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getmonero.org/png?builder=monero-static-ubuntu-arm7)](https://build.getmonero.org/builders/monero-static-ubuntu-arm7)
-| Web         |  armv8   | [![Debian armv8](https://build.getmonero.org/png?builder=monero-static-debian-armv8)](https://build.getmonero.org/builders/monero-static-debian-armv8)
+| Nom                   | Logiciel         | Commentaires  |
+| ----------------------|------------------|---------------|
+| C                     | CodeBlocks/Shell | [![Commentaires](https://img.shields.io/badge/commentaire-0%25-b70b0b.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C)
+| C++                   | CodeBlocks/Shell | [![Commentaires](https://img.shields.io/badge/commentaire-0%25-b70b0b.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C%2B%2B)
+| Java                  |  Windows/Linux   | [![Commentaires](https://img.shields.io/badge/commentaire-0%25-b70b0b.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/Java)
+| Web                   |  Tout appareil   | [![Commentaires](https://img.shields.io/badge/commentaire-0%25-b70b0b.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/Web)
+
+
+
+
+<!-- TOOLBOX 
+0%-25% > Rouge https://img.shields.io/badge/commentaire-0%25-b70b0b.svg
+25%-50% > Orange https://img.shields.io/badge/commentaire-25%25-f29e02.svg
+50%-75% > Vert clair https://img.shields.io/badge/commentaire-50%25-c1f101.svg
+75%-100% > Vert fluo https://img.shields.io/badge/commentaire-50%25-4cf000.svg
+
+
+
+-->
