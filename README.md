@@ -53,6 +53,11 @@ Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vo
 | Affichage customisé <br> Structures avancées <br> Pointeurs avancés <br> Allocation dynamique     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structureComplexeSportif)
 | Serveur HTTP lite (socket)     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/serveurHTTP.c)
 
+
+# Changelog
+
+**14/12/2017:** Distribution et organisation originale du repository
+
 <!-- TOOLBOX 
 0%-25% > Rouge https://img.shields.io/badge/commentaire-0%25-b70b0b.svg
 25%-50% > Orange https://img.shields.io/badge/commentaire-25%25-f29e02.svg
