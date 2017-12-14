@@ -33,7 +33,12 @@ Une grande majorité de notions vues en programmation et en architecture des sys
 | Arguments                |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/argument1.c)
 | Fork                     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/bonhommeFork.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/testFork2.c)
 | Pipe (Tube)              | Linux            | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/popen.c)
-| Signaux                  |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/signauxQ1.c)
+| Signaux                  |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/signauxQ1.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/signauxQ2.c)
+| Mémoire partagée         |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/memShareP1.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/memShareP2.c) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/memShareP3.c)
+| Sémaphore                |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/semaphoreP1) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/semaphoreP2) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/semaphoreP3)
+| Socket client            |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/socketClient)
+| Socket serveur           |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/serverSocket)
+| Thread                   |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/threadTDQ2) [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Deuxieme%20annee/threadTDQ3)
 
 
 
@@ -46,6 +51,7 @@ Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vo
 | Communication série      |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/serialConnection.c)
 | FSeek (Curseur)          |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/utilisationFseek.c)
 | Affichage customisé <br> Structures avancées <br> Pointeurs avancés <br> Allocation dynamique     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structureComplexeSportif)
+| Serveur HTTP lite (socket)     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/serveurHTTP.c)
 
 <!-- TOOLBOX 
 0%-25% > Rouge https://img.shields.io/badge/commentaire-0%25-b70b0b.svg
