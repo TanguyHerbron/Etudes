@@ -49,7 +49,7 @@ Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vo
 | Notion                   | Environnement    | Commentaires  |
 | -------------------------|------------------|---------------|
 | Communication série      |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/serialConnection.c)
-| FSeek (Curseur)          |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/utilisationFseek.c)
+| FSeek (Curseur fichier)          |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/utilisationFseek.c)
 | Affichage customisé <br> Structures avancées <br> Pointeurs avancés <br> Allocation dynamique     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structureComplexeSportif)
 | Serveur HTTP lite (socket)     |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Deuxieme%20annee/serveurHTTP.c)
 
