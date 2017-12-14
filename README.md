@@ -59,6 +59,6 @@ Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vo
 50%-75% > Vert clair https://img.shields.io/badge/commentaire-50%25-c1f101.svg
 75%-100% > Vert fluo https://img.shields.io/badge/commentaire-50%25-4cf000.svg
 
-
+Génération des badges : https://shields.io/
 
 -->
