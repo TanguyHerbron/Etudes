@@ -57,7 +57,7 @@ Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vo
 
 # Changelog
 
-**15/12/2017:** Ajout des programmes de file de message. 
+**15/12/2017:** Ajout des programmes de file de message. <br>
 **14/12/2017:** Distribution et organisation originale du repository. 
 
 <!-- TOOLBOX 
