@@ -26,7 +26,7 @@ Libre à vous de chercher un peu dans le repository comment les fichiers sont or
 
 Une grande majorité de notions vues en programmation et en architecture des systèmes d'exploitations devraient être traitées dans ce repository, liste encore incomplète ci-dessous.
 
-| Notion                   | Environnement    | Commentaires  |
+| Notion                   | Environnement    | Liens         |
 | -------------------------|------------------|---------------|
 | Structure                |  C/C++           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/structure)
 | Accès fichier            |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/tree/master/BTS/C/Premiere%20annee/accesFichier)
@@ -47,7 +47,7 @@ Une grande majorité de notions vues en programmation et en architecture des sys
 
 Quelques programmes qui ne sont pas (encore) au programme mais qui pourraient vous intéresser/compléter certaines notions.
 
-| Notion                   | Environnement    | Commentaires  |
+| Notion                   | Environnement    | Liens         |
 | -------------------------|------------------|---------------|
 | Communication série      |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/serialConnection.c)
 | FSeek (Curseur fichier)          |  Linux           | [![Lien](https://img.shields.io/badge/Lien-%3E-d5d5d5.svg)](https://github.com/TanguyHerbron/Etudes/blob/master/BTS/C/Premiere%20annee/utilisationFseek.c)
