@@ -14,9 +14,9 @@ Bienvenue sur le repository comportant 90% des codes que j'ai pu faire pendant m
 
 # Fonctionnement
 
-**Attention:** Je ne prétends en aucun cas que les codes qui sont dans ce repository sont
-  1- fontionnels dans leur ensemble
-  2- les réponses attendus par les enseignants
+**Attention:** Je ne prétends en aucun cas que les codes qui sont dans ce repository sont</br>
+  1- fontionnels dans leur ensemble</br>
+  2- les réponses attendus par les enseignants</br>
 Ces programmes ne sont là que pour vous aider à comprendre certaines notions et pour vous éxercer.
 
 Libre à vous de chercher un peu dans le repository comment les fichiers sont organisés/nommés et les différentes notions qu'ils contiennent. Demandez-moi si vous avez besoin que je commande un programme rapidement si vous avez du mal à le comprendre, il suffit de m'envoyer un message par n'importe quel moyen ou de faire une "issue" sur Github.
