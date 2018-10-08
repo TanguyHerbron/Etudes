@@ -32,8 +32,6 @@ public class HtmlAlbum {
   private static Logger log = Logger.getLogger(HtmlAlbum.class);
  
   /**
-   * Ecriture de la page HTML avec StAX.
-   * 
    * @param album
    * @param out
    * @throws XMLStreamException

@@ -38,7 +38,7 @@ public class Main {
 		FileOutputStream out = null;
 
 		try { 
-			List<Album> listAlbum = new SAXSearchAlbums().find("Shaka%20Ponk");
+			List<Album> listAlbum = new SAXSearchAlbums().find("Stupeflip");
 
 			// recuperation des titres de l album
 			for(int i = 0; i < listAlbum.size(); i++)
