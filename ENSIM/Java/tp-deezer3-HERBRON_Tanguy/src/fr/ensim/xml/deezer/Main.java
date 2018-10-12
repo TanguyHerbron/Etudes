@@ -14,6 +14,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 import fr.ensim.xml.deezer.data.Album;
 import fr.ensim.xml.deezer.data.Track;
+import fr.ensim.xml.deezer.dom.DOMSearchAlbums;
 import fr.ensim.xml.deezer.dom.SearchAlbumTracks;
 import fr.ensim.xml.deezer.sax.SAXSearchAlbums;
 import fr.ensim.xml.deezer.stax.HtmlAlbum;
@@ -28,7 +29,7 @@ public class Main {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public Main(String args) {
 		// configuration du proxy et des logs
 		DOMConfigurator.configure("log4J.xml");
 		ProxyConfiguration.configure();
@@ -38,7 +39,10 @@ public class Main {
 		FileOutputStream out = null;
 
 		try { 
-			List<Album> listAlbum = new SAXSearchAlbums().find("Stupeflip");
+			List<Album> listAlbum;
+			
+			//listAlbum = new SAXSearchAlbums().find(args);
+			listAlbum = new DOMSearchAlbums().find(args);
 
 			// recuperation des titres de l album
 			for(int i = 0; i < listAlbum.size(); i++)

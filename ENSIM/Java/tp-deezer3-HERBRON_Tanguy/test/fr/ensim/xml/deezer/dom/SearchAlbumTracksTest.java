@@ -32,7 +32,7 @@ public class SearchAlbumTracksTest {
 		LOG.debug(">>testParse");
 
 	    // Recuperation du flux a parser
-	    InputStream in = getClass().getResourceAsStream("../album-stupeflip.xml");
+	    InputStream in = getClass().getResourceAsStream("../list-albums.xml");
 	    
 	    SAXParserFactory factory = SAXParserFactory.newInstance();
 	    factory.setNamespaceAware(true);

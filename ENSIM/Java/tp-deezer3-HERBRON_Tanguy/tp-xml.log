@@ -1,28 +1,7 @@
-10:22:45,359 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - >>find author=Stupeflip
-10:22:45,365 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - http://api.deezer.com/2.0/search/album?q=Stupeflip&output=xml
-10:22:45,517 DEBUG fr.ensim.xml.deezer.sax.SAXSearchAlbums - >>readAlbums
-10:22:45,546 DEBUG fr.ensim.xml.deezer.sax.SAXSearchAlbums - <<readAlbums
-10:22:45,548 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - <<find
-10:22:45,550 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>albums
-10:22:45,550 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - http://api.deezer.com/2.0/album/68670211?output=xml
-10:22:45,610 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,626 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,626 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>albums
-10:22:45,627 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - http://api.deezer.com/2.0/album/68474611?output=xml
-10:22:45,702 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,714 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,715 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>albums
-10:22:45,715 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - http://api.deezer.com/2.0/album/68511731?output=xml
-10:22:45,813 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,855 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,860 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>albums
-10:22:45,860 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - http://api.deezer.com/2.0/album/68517081?output=xml
-10:22:45,951 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,965 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:45,966 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>albums
-10:22:45,966 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - http://api.deezer.com/2.0/album/68454551?output=xml
-10:22:46,021 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:46,025 DEBUG fr.ensim.xml.deezer.dom.SearchAlbumTracks - >>find
-10:22:46,033 DEBUG fr.ensim.xml.deezer.stax.HtmlAlbum - >>write
-10:22:46,109 DEBUG fr.ensim.xml.deezer.stax.HtmlAlbum - <<write
-10:22:46,748 DEBUG fr.ensim.xml.deezer.Main - <<main
+12:30:47,649 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testCount
+12:30:47,657 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>count
+12:30:47,677 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<count 10
+12:30:47,677 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - <<testCount
+12:30:47,677 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testParse
+12:30:47,681 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>readAlbums
+12:30:47,689 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<readAlbums
