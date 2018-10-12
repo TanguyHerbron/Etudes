@@ -13,27 +13,27 @@ public class Album {
 	private String id;
 
 	private String title;
-	
+
 	private String cover;
-		
+
 	private List<Track> tracks = new ArrayList<Track>();
 
-	public Album() {		
+	public Album() {
 	}
-	
+
 	public void addTrack(Track title) {
 		tracks.add(title);
 	}
-	
+
 	public List<Track> getTracks() {
 		return tracks;
 	}
 
 	public void setTracks(List<Track> tracks) {
-    this.tracks = tracks;
-  }
+		this.tracks = tracks;
+	}
 
-  public Artist getArtist() {
+	public Artist getArtist() {
 		return artist;
 	}
 
@@ -42,14 +42,14 @@ public class Album {
 	}
 
 	public String getCover() {
-    return cover;
-  }
+		return cover;
+	}
 
-  public void setCover(String cover) {
-    this.cover = cover;
-  }
+	public void setCover(String cover) {
+		this.cover = cover;
+	}
 
-  public String getId() {
+	public String getId() {
 		return id;
 	}
 
@@ -64,5 +64,5 @@ public class Album {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
+
 }

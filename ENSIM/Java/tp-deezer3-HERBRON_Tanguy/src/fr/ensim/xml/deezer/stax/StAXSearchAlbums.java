@@ -95,8 +95,14 @@ public class StAXSearchAlbums extends AbstractSearchAlbum {
     		switch(element)
     		{
     		case "id":
-    			if(isArtist) buildingArtist.setId(reader.getText());
-    			else buildingAlbum.setId(reader.getText());
+    			if(isArtist)
+    			{
+    				buildingArtist.setId(reader.getText());
+    			}
+    			else
+    			{
+    				buildingAlbum.setId(reader.getText());
+    			}
     			break;
     		case "title":
     			buildingAlbum.setTitle(reader.getText());
@@ -125,6 +131,8 @@ public class StAXSearchAlbums extends AbstractSearchAlbum {
     			buildingAlbum.setArtist(buildingArtist);
     			isArtist = false;
     			break;
+    		default:
+    			element = "";
     		}
     	}
     }
