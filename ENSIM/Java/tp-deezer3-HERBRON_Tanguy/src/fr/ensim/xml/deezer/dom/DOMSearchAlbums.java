@@ -26,7 +26,7 @@ import fr.ensim.xml.deezer.data.Track;
  * 
  */
 public class DOMSearchAlbums extends AbstractSearchAlbum {
-  private static final Logger LOG = Logger.getLogger(DOMSearchAlbumsTest.class);
+  private static final Logger LOG = Logger.getLogger(DOMSearchAlbums.class);
  
   /*
    * (non-Javadoc)

@@ -12,10 +12,12 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
+import fr.ensim.json.JSONSearchAlbum;
+import fr.ensim.json.JSONSearchAlbumTracks;
 import fr.ensim.xml.deezer.data.Album;
 import fr.ensim.xml.deezer.data.Track;
 import fr.ensim.xml.deezer.dom.DOMSearchAlbums;
-import fr.ensim.xml.deezer.dom.SearchAlbumTracks;
+import fr.ensim.xml.deezer.dom.DOMSearchAlbumTracks;
 import fr.ensim.xml.deezer.sax.SAXSearchAlbums;
 import fr.ensim.xml.deezer.stax.HtmlAlbum;
 
@@ -24,44 +26,36 @@ import fr.ensim.xml.deezer.stax.HtmlAlbum;
  * @author Denis Apparicio
  * 
  */
-public class Main {
+public class Runner {
 
-	/**
-	 * @param args
-	 */
-	public Main(String args) {
+	public Runner() {
 		// configuration du proxy et des logs
 		DOMConfigurator.configure("log4J.xml");
 		ProxyConfiguration.configure();
-
-		Logger log = Logger.getLogger(Main.class);
-
+	}
+	
+	public File start(String searchString)
+	{
+		Logger log = Logger.getLogger(Runner.class);
+		
 		FileOutputStream out = null;
 
-		try { 
-			List<Album> listAlbum;
+		try {
+			List<Album> listAlbum = new JSONSearchAlbum().find(searchString, false);
 			
-			//listAlbum = new SAXSearchAlbums().find(args);
-			listAlbum = new DOMSearchAlbums().find(args);
-
-			// recuperation des titres de l album
-			for(int i = 0; i < listAlbum.size(); i++)
+			for(int i = 0; i < 1; i++)
 			{
-				listAlbum.get(i).setTracks(SearchAlbumTracks.find(listAlbum.get(i).getId()));
+				listAlbum.get(i).setTracks(JSONSearchAlbumTracks.find(listAlbum.get(i).getId()));
 			}
-
-			// Ecriture de la page html
+			
 			File fileHtml = new File(listAlbum.get(0).getArtist().getName() + ".html");
 			out = new FileOutputStream(fileHtml);
 			HtmlAlbum.write(listAlbum, out);
 			out.close();
-
-			// Ouverture de la page
-			if (fileHtml.isFile()) {
-				if (Desktop.isDesktopSupported()
-						&& Desktop.getDesktop().isSupported(Action.BROWSE)) {
-					Desktop.getDesktop().browse(fileHtml.toURI());
-				}
+			
+			if(fileHtml.isFile())
+			{
+				return fileHtml;
 			}
 		}
 		catch (Exception e) {
@@ -80,6 +74,61 @@ public class Main {
 		}
 
 		log.debug("<<main");
+		
+		return null;
 	}
+	
+	public File start(String searchString, boolean useDom)
+	{
 
+		Logger log = Logger.getLogger(Runner.class);
+
+		FileOutputStream out = null;
+
+		try {
+			List<Album> listAlbum;
+			
+			//listAlbum = new SAXSearchAlbums().find(args);
+			listAlbum = new DOMSearchAlbums().find(searchString, true);
+
+			// recuperation des titres de l album
+			for(int i = 0; i < 1; i++)
+			{
+				listAlbum.get(i).setTracks(DOMSearchAlbumTracks.find(listAlbum.get(i).getId()));
+			}
+
+			// Ecriture de la page html
+			File fileHtml = new File(listAlbum.get(0).getArtist().getName() + ".html");
+			out = new FileOutputStream(fileHtml);
+			HtmlAlbum.write(listAlbum, out);
+			out.close();
+
+			// Ouverture de la page
+			if (fileHtml.isFile()) {
+				return fileHtml;
+				/*if (Desktop.isDesktopSupported()
+						&& Desktop.getDesktop().isSupported(Action.BROWSE)) {
+					Desktop.getDesktop().browse(fileHtml.toURI());
+				}*/
+			}
+		}
+		catch (Exception e) {
+			log.error("", e);
+			fail(e.getMessage());
+		}
+		finally {
+			try {
+				if (out != null) {
+					out.close();
+				}
+			}
+			catch (IOException e) {
+				log.error("", e);
+			}
+		}
+
+		log.debug("<<main");
+		
+		return null;
+	}
 }

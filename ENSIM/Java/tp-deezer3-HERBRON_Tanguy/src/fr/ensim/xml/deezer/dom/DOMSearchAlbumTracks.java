@@ -25,8 +25,8 @@ import fr.ensim.xml.deezer.data.Track;
  * @author Denis Apparicio
  * 
  */
-public class SearchAlbumTracks {
-  private static Logger log = Logger.getLogger(SearchAlbumTracks.class);
+public class DOMSearchAlbumTracks {
+  private static Logger log = Logger.getLogger(DOMSearchAlbumTracks.class);
  
   /**
    * Restitue la liste des chansons d'un album.
@@ -100,6 +100,7 @@ public class SearchAlbumTracks {
     doc.normalize();
     
     parseChildElements(doc.getDocumentElement(), listTracks);
+    listTracks.add(buildingTrack);
 
     log.debug(">>find");
     return listTracks;
