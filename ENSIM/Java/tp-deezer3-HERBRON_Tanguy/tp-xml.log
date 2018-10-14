@@ -1,8 +1,10 @@
-17:25:23,069 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testCount
-17:25:23,071 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>count
-17:25:23,082 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<count 10
-17:25:23,082 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - <<testCount
-17:25:23,083 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testParse
-17:25:23,083 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>readAlbums
-17:25:23,085 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<readAlbums
-17:25:23,085 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - <<testParse
+22:21:21,043 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - >>find author=Shaka%20ponk
+22:21:21,046 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - http://api.deezer.com/2.0/search/album?q=Shaka%20ponk
+22:21:26,435 DEBUG fr.ensim.json.JSONSearchAlbum - >>readAlbums
+22:21:26,445 DEBUG fr.ensim.json.JSONSearchAlbum - <<readAlbums
+22:21:26,446 DEBUG fr.ensim.xml.deezer.AbstractSearchAlbum - <<find
+22:21:26,446 DEBUG fr.ensim.json.JSONSearchAlbumTracks - >>albums
+22:21:26,447 DEBUG fr.ensim.json.JSONSearchAlbumTracks - http://api.deezer.com/2.0/album/47685332
+22:21:31,570 DEBUG fr.ensim.json.JSONSearchAlbumTracks - >>find
+22:21:31,579 DEBUG fr.ensim.json.JSONSearchAlbumTracks - >>find
+22:21:31,580 DEBUG fr.ensim.xml.deezer.stax.StAXHtmlAlbum - >>write

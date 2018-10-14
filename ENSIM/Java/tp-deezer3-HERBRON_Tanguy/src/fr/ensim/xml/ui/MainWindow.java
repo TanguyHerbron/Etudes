@@ -21,6 +21,9 @@ import javafx.stage.Stage;
 
 public class MainWindow extends Application {
 
+	private boolean useDom;
+	private boolean useCustom;
+	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
@@ -41,6 +44,12 @@ public class MainWindow extends Application {
 		final MenuItem xmlOption = menuButton.getItems().get(0);
 		final MenuItem jsonOption = menuButton.getItems().get(1);
 		final WebView webView = (WebView) scene.lookup("#webView");
+		final MenuButton formatButton = (MenuButton) scene.lookup("#xmlFormatSelector");
+		final MenuItem domOption = formatButton.getItems().get(0);
+		final MenuItem saxOption = formatButton.getItems().get(1);
+		final MenuButton htmlButton = (MenuButton) scene.lookup("#htmlGeneratorSelector");
+		final MenuItem customOption = htmlButton.getItems().get(0);
+		final MenuItem staxOption = htmlButton.getItems().get(1);
 		
 		searchButton.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
@@ -48,14 +57,14 @@ public class MainWindow extends Application {
 				if(menuButton.getText().equals(jsonOption.getText()))
 				{
 					Runner runner = new Runner();
-					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"));
+					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useCustom);
 					WebEngine engine = webView.getEngine();
 					engine.load(htmlFile.toURI().toString());
 				}
 				else
 				{
 					Runner runner = new Runner();
-					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), false);
+					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useDom, useCustom);
 					WebEngine engine = webView.getEngine();
 					engine.load(htmlFile.toURI().toString());
 				}
@@ -68,6 +77,7 @@ public class MainWindow extends Application {
 			@Override
 			public void handle(ActionEvent event) {
 				menuButton.setText(xmlOption.getText());
+				formatButton.setDisable(false);
 			}
 		});
 		
@@ -76,6 +86,43 @@ public class MainWindow extends Application {
 			@Override
 			public void handle(ActionEvent event) {
 				menuButton.setText(jsonOption.getText());
+				formatButton.setDisable(true);
+			}
+		});
+	
+		domOption.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override
+			public void handle(ActionEvent event) {
+				formatButton.setText(domOption.getText());
+				useDom = true;
+			}
+		});
+		
+		saxOption.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override
+			public void handle(ActionEvent event) {
+				formatButton.setText(saxOption.getText());
+				useDom = false;
+			}
+		});
+	
+		customOption.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override
+			public void handle(ActionEvent event) {
+				htmlButton.setText(customOption.getText());
+				useCustom = true;
+			}
+		});
+	
+		staxOption.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override
+			public void handle(ActionEvent event) {
+				htmlButton.setText(staxOption.getText());
+				useCustom = false;
 			}
 		});
 	}

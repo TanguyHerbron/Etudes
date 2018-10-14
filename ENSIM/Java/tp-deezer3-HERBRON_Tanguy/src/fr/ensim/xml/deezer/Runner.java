@@ -20,6 +20,7 @@ import fr.ensim.xml.deezer.dom.DOMSearchAlbums;
 import fr.ensim.xml.deezer.dom.DOMSearchAlbumTracks;
 import fr.ensim.xml.deezer.sax.SAXSearchAlbums;
 import fr.ensim.xml.deezer.stax.HtmlAlbum;
+import fr.ensim.xml.deezer.stax.StAXHtmlAlbum;
 
 
 /**
@@ -34,7 +35,7 @@ public class Runner {
 		ProxyConfiguration.configure();
 	}
 	
-	public File start(String searchString)
+	public File start(String searchString, boolean useCustom)
 	{
 		Logger log = Logger.getLogger(Runner.class);
 		
@@ -50,7 +51,17 @@ public class Runner {
 			
 			File fileHtml = new File(listAlbum.get(0).getArtist().getName() + ".html");
 			out = new FileOutputStream(fileHtml);
-			HtmlAlbum.write(listAlbum, out);
+			
+			if(useCustom)
+			{
+				HtmlAlbum.write(listAlbum, out);
+			}
+			else
+			{
+				StAXHtmlAlbum.write(listAlbum, out);
+			}
+			
+
 			out.close();
 			
 			if(fileHtml.isFile())
@@ -78,7 +89,7 @@ public class Runner {
 		return null;
 	}
 	
-	public File start(String searchString, boolean useDom)
+	public File start(String searchString, boolean useDom, boolean useCustom)
 	{
 
 		Logger log = Logger.getLogger(Runner.class);
@@ -100,7 +111,16 @@ public class Runner {
 			// Ecriture de la page html
 			File fileHtml = new File(listAlbum.get(0).getArtist().getName() + ".html");
 			out = new FileOutputStream(fileHtml);
-			HtmlAlbum.write(listAlbum, out);
+			
+			if(useCustom)
+			{
+				HtmlAlbum.write(listAlbum, out);
+			}
+			else
+			{
+				StAXHtmlAlbum.write(listAlbum, out);
+			}
+			
 			out.close();
 
 			// Ouverture de la page
