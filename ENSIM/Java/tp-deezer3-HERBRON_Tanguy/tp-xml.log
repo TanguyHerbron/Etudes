@@ -1,4 +1,8 @@
-17:15:23,447 DEBUG fr.ensim.xml.deezer.dom.DOMSearchAlbumTracksTest - >>testParse
-17:15:23,450 DEBUG fr.ensim.xml.deezer.dom.DOMSearchAlbumTracks - >>find
-17:15:23,461 DEBUG fr.ensim.xml.deezer.dom.DOMSearchAlbumTracks - >>find
-17:15:23,462 DEBUG fr.ensim.xml.deezer.dom.DOMSearchAlbumTracksTest - <<testParse
+17:25:23,069 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testCount
+17:25:23,071 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>count
+17:25:23,082 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<count 10
+17:25:23,082 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - <<testCount
+17:25:23,083 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - >>testParse
+17:25:23,083 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - >>readAlbums
+17:25:23,085 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbums - <<readAlbums
+17:25:23,085 DEBUG fr.ensim.xml.deezer.stax.StAXSearchAlbumsTest - <<testParse

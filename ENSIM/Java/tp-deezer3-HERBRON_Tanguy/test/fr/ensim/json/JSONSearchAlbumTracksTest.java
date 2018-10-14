@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import fr.ensim.xml.deezer.data.Album;
+import fr.ensim.xml.deezer.data.Track;
 
 public class JSONSearchAlbumTracksTest {
 
@@ -20,24 +21,18 @@ public class JSONSearchAlbumTracksTest {
 
 		// Recuperation du flux a parser
 		//InputStream in = getClass().getResourceAsStream("../list-albums.json");
-		InputStream in = getClass().getClassLoader().getResourceAsStream("fr/ensim/json/list-albums.json");
+		InputStream in = getClass().getClassLoader().getResourceAsStream("fr/ensim/json/47685332.json");
 
-		List<Tra> listAlbums = new JSONSearchAlbum().readAlbums(in);
-
-		assertEquals(10, handler.getListAlbum().size());
+		List<Track> trackList = new JSONSearchAlbumTracks().find(in);
+		
+	    assertEquals(13, trackList.size());
 	    //First album
-	    assertEquals("47685332", handler.getListAlbum().get(0).getId());
-	    assertEquals("The Evol", handler.getListAlbum().get(0).getTitle());
-	    assertEquals("http://api.deezer.com/2.0/album/47685332/image", handler.getListAlbum().get(0).getCover());
-	    assertEquals("83325", handler.getListAlbum().get(0).getArtist().getId());
-	    assertEquals("Shaka Ponk", handler.getListAlbum().get(0).getArtist().getName());
+	    assertEquals("Gung Ho", trackList.get(0).getTitle());
+	    assertEquals("http://cdn-preview-a.deezer.com/stream/c-abbf47cd151375ceee9a5d3835545268-4.mp3", trackList.get(0).getPreview());
 
 	    //Second album
-	    assertEquals("1121440", handler.getListAlbum().get(1).getId());
-	    assertEquals("The Geeks And The Jerkin' Socks", handler.getListAlbum().get(1).getTitle());
-	    assertEquals("http://api.deezer.com/2.0/album/1121440/image", handler.getListAlbum().get(1).getCover());
-	    assertEquals("83325", handler.getListAlbum().get(1).getArtist().getId());
-	    assertEquals("Shaka Ponk", handler.getListAlbum().get(1).getArtist().getName());
+	    assertEquals("Fear Ya", trackList.get(1).getTitle());
+	    assertEquals("http://cdn-preview-f.deezer.com/stream/c-f2ff0cdc8bd8e4764f59d36ccf996d7c-4.mp3", trackList.get(1).getPreview());
 	    
 	    LOG.debug("<<testParse");
 	}
