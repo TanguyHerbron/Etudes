@@ -3,9 +3,11 @@ package fr.ensim.xml.ui;
 import java.io.File;
 import java.io.IOException;
 
+import com.sun.media.jfxmedia.events.PlayerTimeListener;
+
 import fr.ensim.xml.deezer.Runner;
 import javafx.application.Application;
-import javafx.collections.ObservableList;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -44,6 +46,7 @@ public class MainWindow extends Application {
 		final MenuItem xmlOption = menuButton.getItems().get(0);
 		final MenuItem jsonOption = menuButton.getItems().get(1);
 		final WebView webView = (WebView) scene.lookup("#webView");
+		final WebEngine engine = webView.getEngine();
 		final MenuButton formatButton = (MenuButton) scene.lookup("#xmlFormatSelector");
 		final MenuItem domOption = formatButton.getItems().get(0);
 		final MenuItem saxOption = formatButton.getItems().get(1);
@@ -51,22 +54,52 @@ public class MainWindow extends Application {
 		final MenuItem customOption = htmlButton.getItems().get(0);
 		final MenuItem staxOption = htmlButton.getItems().get(1);
 		
+		final Thread uiThread = Thread.currentThread();
+		
 		searchButton.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
 				if(menuButton.getText().equals(jsonOption.getText()))
 				{
-					Runner runner = new Runner();
-					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useCustom);
-					WebEngine engine = webView.getEngine();
-					engine.load(htmlFile.toURI().toString());
+					Thread thread = new Thread()
+					{
+						public void run()
+						{
+							Runner runner = new Runner();
+							final File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useCustom);
+							
+							Platform.runLater(new Runnable(){
+
+								@Override
+								public void run() {
+									engine.load(htmlFile.toURI().toString());
+								}								
+							});
+						}
+					};
+					
+					thread.start();
 				}
 				else
 				{
-					Runner runner = new Runner();
-					File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useDom, useCustom);
-					WebEngine engine = webView.getEngine();
-					engine.load(htmlFile.toURI().toString());
+					Thread thread = new Thread()
+					{
+						public void run()
+						{
+							Runner runner = new Runner();
+							final File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useDom, useCustom);
+							
+							Platform.runLater(new Runnable(){
+
+								@Override
+								public void run() {
+									engine.load(htmlFile.toURI().toString());
+								}								
+							});
+						}
+					};
+					
+					thread.start();
 				}
 				
 			}
