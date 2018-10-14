@@ -44,7 +44,7 @@ public class Runner {
 		try {
 			List<Album> listAlbum = new JSONSearchAlbum().find(searchString, false);
 			
-			for(int i = 0; i < 1; i++)
+			for(int i = 0; i < listAlbum.size(); i++)
 			{
 				listAlbum.get(i).setTracks(JSONSearchAlbumTracks.find(listAlbum.get(i).getId()));
 			}
@@ -103,7 +103,7 @@ public class Runner {
 			listAlbum = new DOMSearchAlbums().find(searchString, true);
 
 			// recuperation des titres de l album
-			for(int i = 0; i < 1; i++)
+			for(int i = 0; i < listAlbum.size(); i++)
 			{
 				listAlbum.get(i).setTracks(DOMSearchAlbumTracks.find(listAlbum.get(i).getId()));
 			}

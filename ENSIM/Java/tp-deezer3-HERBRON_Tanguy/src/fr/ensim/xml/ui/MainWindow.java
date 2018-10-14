@@ -9,14 +9,18 @@ import fr.ensim.xml.deezer.Runner;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
@@ -53,55 +57,25 @@ public class MainWindow extends Application {
 		final MenuButton htmlButton = (MenuButton) scene.lookup("#htmlGeneratorSelector");
 		final MenuItem customOption = htmlButton.getItems().get(0);
 		final MenuItem staxOption = htmlButton.getItems().get(1);
+		final Label loadingLabel = (Label) scene.lookup("#loadingLabel");
 		
 		final Thread uiThread = Thread.currentThread();
+		
+		searchTextField.setOnKeyReleased(new EventHandler<KeyEvent>() {
+
+			@Override
+			public void handle(KeyEvent event) {
+				if(event.getCode() == KeyCode.ENTER)
+				{
+					startSearch(menuButton.getText(), searchTextField.getText(), engine, loadingLabel);
+				}
+			}
+		});
 		
 		searchButton.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-				if(menuButton.getText().equals(jsonOption.getText()))
-				{
-					Thread thread = new Thread()
-					{
-						public void run()
-						{
-							Runner runner = new Runner();
-							final File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useCustom);
-							
-							Platform.runLater(new Runnable(){
-
-								@Override
-								public void run() {
-									engine.load(htmlFile.toURI().toString());
-								}								
-							});
-						}
-					};
-					
-					thread.start();
-				}
-				else
-				{
-					Thread thread = new Thread()
-					{
-						public void run()
-						{
-							Runner runner = new Runner();
-							final File htmlFile = runner.start(searchTextField.getText().replaceAll("\\s", "%20"), useDom, useCustom);
-							
-							Platform.runLater(new Runnable(){
-
-								@Override
-								public void run() {
-									engine.load(htmlFile.toURI().toString());
-								}								
-							});
-						}
-					};
-					
-					thread.start();
-				}
-				
+				startSearch(menuButton.getText(), searchTextField.getText(), engine, loadingLabel);
 			}
 		});
 		
@@ -158,6 +132,57 @@ public class MainWindow extends Application {
 				useCustom = false;
 			}
 		});
+	}
+	
+	public void startSearch(String menuButtonStr, final String searchStr, final WebEngine engine, final Label loadingLabel)
+	{
+		loadingLabel.setVisible(true);
+		engine.loadContent("");
+		
+		if(menuButtonStr.equals("JSON"))
+		{
+			Thread thread = new Thread()
+			{
+				public void run()
+				{
+					Runner runner = new Runner();
+					final File htmlFile = runner.start(searchStr.replaceAll("\\s", "%20"), useCustom);
+					
+					Platform.runLater(new Runnable(){
+
+						@Override
+						public void run() {
+							engine.load(htmlFile.toURI().toString());
+							loadingLabel.setVisible(false);
+						}								
+					});
+				}
+			};
+			
+			thread.start();
+		}
+		else
+		{
+			Thread thread = new Thread()
+			{
+				public void run()
+				{
+					Runner runner = new Runner();
+					final File htmlFile = runner.start(searchStr.replaceAll("\\s", "%20"), useDom, useCustom);
+					
+					Platform.runLater(new Runnable(){
+
+						@Override
+						public void run() {
+							engine.load(htmlFile.toURI().toString());
+							loadingLabel.setVisible(false);
+						}								
+					});
+				}
+			};
+			
+			thread.start();
+		}
 	}
 
 	public static void main(String[] args) {
