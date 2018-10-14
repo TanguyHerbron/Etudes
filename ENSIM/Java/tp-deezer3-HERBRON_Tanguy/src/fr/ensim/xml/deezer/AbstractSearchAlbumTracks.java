@@ -24,14 +24,14 @@ public abstract class AbstractSearchAlbumTracks {
    * @return la liste des chansons.
    * @throws Exception
    */
-  public List<Track> find(String id) throws Exception {
+  public List<Track> find(String id, boolean isXML) throws Exception {
     log.debug(">>find");
 
     // Constitution de l'URL
     StringBuilder sUrl = new StringBuilder();
     sUrl.append("http://api.deezer.com/2.0/album/");
     sUrl.append(id);
-    sUrl.append("?output=xml");
+    if(isXML) sUrl.append("&output=xml");
 
     URL url = new URL(sUrl.toString());
 

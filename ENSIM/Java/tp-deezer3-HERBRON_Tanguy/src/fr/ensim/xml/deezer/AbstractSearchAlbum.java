@@ -29,7 +29,7 @@ public abstract class AbstractSearchAlbum {
    * @throws ParserConfigurationException
    * @throws SAXException
    */
-  public List<Album> find(String author) throws IOException,
+  public List<Album> find(String author, boolean isXML) throws IOException,
                                         ParserConfigurationException,
                                         SAXException {
     LOG.debug(">>find author="+author);
@@ -38,7 +38,7 @@ public abstract class AbstractSearchAlbum {
     StringBuilder sUrl = new StringBuilder();
     sUrl.append("http://api.deezer.com/2.0/search/album?q=");
     sUrl.append(author);
-    sUrl.append("&output=xml");
+    if(isXML) sUrl.append("&output=xml");
 
     URL url = new URL(sUrl.toString());
     LOG.debug(url);
