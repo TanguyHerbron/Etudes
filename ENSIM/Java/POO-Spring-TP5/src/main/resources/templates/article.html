@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http :// www.thymeleaf.org">
+    <head>
+        <title>Article</title>
+        <meta charset="UTF-8"/>
+
+        <div th:replace="fragments/header :: header"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-image">
+                            <img th:src="${article.src}">
+                            <span class="card-title" th:text="${article.title}"/>
+                        </div>
+                        <div class="card-content">
+                            <p th:text="${article.content}"/>
+                        </div>
+                        <div class="card-action">
+                            <p th:text="${article.author}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

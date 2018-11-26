@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http :// www.thymeleaf.org">
+    <head>
+        <title>Article</title>
+        <meta charset="UTF-8"/>
+
+        <div th:replace="fragments/header :: header"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-content">
+                            <form action="#" th:action="@{/submit}" th:object="${submit}" method="post">
+                                <p>Title: <input type="text" th:field="*{title}" /></p>
+                                <p>Content: <input type="text" th:field="*{content}" /></p>
+                                <p>Author: <input type="text" th:field="*{author}" /></p>
+                                <p>Image: <input type="text" th:field="*{src}" /></p>
+                                <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

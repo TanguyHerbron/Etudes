@@ -1,0 +1,17 @@
+<!DOCTYPE  HTML>
+<html xmlns:th="http :// www.thymeleaf.org">
+    <head>
+        <title>Blog</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+        <div th:replace="fragments/header :: header"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Les differents articles</h1>
+            <div class="collection" th:each="article: ${allArticles}">
+                <a class="collection-item" th:href="@{'/article?artId=' + ${article.id}}" th:text="${article.title}"/>
+            </div>
+        </div>
+    </body>
+</html>
