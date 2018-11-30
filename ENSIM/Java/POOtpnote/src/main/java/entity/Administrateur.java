@@ -118,11 +118,6 @@ public class Administrateur extends Employe {
         }
     }
 
-    /*public Agence getAgencePlusMaterielDefectueux()
-    {
-
-    }*/
-
     public void achatDeMateriel(Empruntable empruntable)
     {
         entreprise.ajouterAuStock(empruntable);

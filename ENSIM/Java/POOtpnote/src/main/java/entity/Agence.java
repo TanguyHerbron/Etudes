@@ -3,7 +3,7 @@ package entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Agence extends Emprunteur {
+public class Agence extends Emprunteur implements Comparable<Agence> {
 
     private List<Employe> employes;
     private String nom;
@@ -30,5 +30,25 @@ public class Agence extends Emprunteur {
         }
 
         return stock;
+    }
+
+    public int getNbMaterielDefectueux()
+    {
+        int nb = 0;
+
+        for(Empruntable empruntable : listeMateriel())
+        {
+            if(empruntable.isDefectueux())
+            {
+                nb++;
+            }
+        }
+
+        return nb;
+    }
+
+    public int compareTo(Agence o)
+    {
+        return (getNbMaterielDefectueux() - o.getNbMaterielDefectueux());
     }
 }

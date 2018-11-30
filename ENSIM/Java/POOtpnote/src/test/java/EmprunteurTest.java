@@ -4,8 +4,8 @@ import entity.Empruntable;
 import entity.Emprunteur;
 import material.UC;
 import org.junit.Assert;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
@@ -14,9 +14,8 @@ import java.util.ArrayList;
 public class EmprunteurTest {
     static Emprunteur e1;
 
-    //TODO Passage de @Before à @BeforeAll + passage de la méthode en static
-    @BeforeAll
-    public static void setUp() {
+    @Before
+    public void setUp() {
         e1 = new Emprunteur();
     }
 
