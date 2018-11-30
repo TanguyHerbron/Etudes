@@ -1,13 +1,18 @@
 package entity;
 
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Administrateur extends Employe {
+    private static final Logger LOG = Logger.getLogger(Administrateur.class);
 
     public Administrateur(Agence agence, Entreprise entreprise)
     {
         super(agence, entreprise);
+
+        LOG.debug("Création d'un administrateur");
     }
 
     //TODO Expliquer le fonctionnement de la méthode en détail
@@ -19,21 +24,21 @@ public class Administrateur extends Employe {
             {
                 return validerTransfertMateriel(empruntable, emprunteur);
             }
-            else
-            {
-                System.out.println("Matériel réservé");
-            }
         }
         else
         {
             return validerTransfertMateriel(empruntable, emprunteur);
         }
 
+        LOG.debug("Erreur d'attribution de matériel");
+
         return false;
     }
 
     private boolean validerTransfertMateriel(Empruntable empruntable, Emprunteur emprunteur)
     {
+        LOG.debug("Validation d'attribution de matériel");
+
         entreprise.perdreMateriel(empruntable);
         return emprunteur.ajouterAuStock(empruntable);
     }

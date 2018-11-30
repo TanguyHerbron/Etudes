@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="619befff-b456-45da-9393-c820ac461b67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AgenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Agence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Agence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmprunteurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmprunteurTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Administrateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Administrateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Agence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Agence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmprunteurTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmprunteurTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,24 +24,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6887" />
-          <entry key="xml" value="7" />
+          <entry key="java" value="6999" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6887" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="6999" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="58" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="58" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AgenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -74,6 +70,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -100,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/EmprunteurTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
@@ -140,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/Administrateur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2369#2370#0" expanded="true" />
@@ -212,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Administrateur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Employe.java" />
         <option value="$PROJECT_DIR$/src/main/java/Agence.java" />
@@ -234,11 +238,12 @@
         <option value="$PROJECT_DIR$/src/main/java/material/UC.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Empruntable.java" />
         <option value="$PROJECT_DIR$/src/test/java/AdministrateurTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Agence.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmprunteurTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AgenceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" />
       </list>
     </option>
   </component>
@@ -319,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543596542656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543596782056" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -439,7 +444,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24948454" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24948454" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -447,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -466,13 +471,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Employe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -606,24 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Administrateur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3434#3435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Agence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -641,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/EmprunteurTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
@@ -682,6 +662,31 @@
           <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Administrateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#3380#3381#0" expanded="true" />
+            <element signature="e#3434#3435#0" expanded="true" />
           </folding>
         </state>
       </provider>
