@@ -9,8 +9,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-//TODO Ajouter Log4J
-
 public class EmprunteurTest {
     static Emprunteur e1;
 
@@ -27,7 +25,8 @@ public class EmprunteurTest {
         Assert.assertEquals("ajouterAuStock: fail", stock+1, e1.listeMateriel().size());
     }
 
-    //TODO Expliquer la modifification du test unitaire
+    //J'ai ici modifié le test unitaire car mes stocks sont initialisés à la création de mes entreprises.
+    //J'utilise aussi la méthode ajouterAuStock plutôt que la méthode générique add parce que ma variable stock est privée.
     @Test
     public void listeMateriel() {
         //e1.stock = new ArrayList<Empruntable>();

@@ -1,6 +1,6 @@
 package entity;
 
-//TODO Préciser pourquoi un package entity a été créé (héritage du matériel)
+//Un package entity a été créé pour que les objets du package material puissent bien hérité d'empruntable
 public class Empruntable {
 
     private boolean limitationPretAuxAgence;

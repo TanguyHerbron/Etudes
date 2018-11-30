@@ -18,7 +18,7 @@ public class Agence extends Emprunteur implements Comparable<Agence> {
         return employes;
     }
 
-    //TODO Détailler l'ajout de l'ENSEMBLE des stocks
+    //Le matériel d'une agence est constitué du matériel de l'agence ainsi que du matériel de chaque employé de la dite agence.
     @Override
     public List<Empruntable> listeMateriel()
     {

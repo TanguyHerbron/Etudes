@@ -12,7 +12,9 @@ public class Emprunteur{
         stock = new ArrayList<Empruntable>();
     }
 
-    //TODO Amélioration de la méthode, préciser pourquoi utiliser un boolean plutôt qu'un void
+    //La méthode est ici amélioréé par rapport au sujet.
+    //J'utilise le retour de la méthode add de List comme valeur de retour.
+    //La méthode add retourne true si l'ajout a bien été effectué, false sinon.
     public boolean ajouterAuStock(Empruntable empruntable)
     {
         return stock.add(empruntable);

@@ -26,7 +26,7 @@ public class Entreprise extends Emprunteur {
         return agences;
     }
 
-    //TODO Détailler l'ajout de l'ENSEMBLE des stocks
+    //Le stock d'une entreprise est composé du stock de l'entreprise, du stock de chaque agence ainsi que de chaque employé de l'entreprise
     @Override
     public List<Empruntable> listeMateriel()
     {

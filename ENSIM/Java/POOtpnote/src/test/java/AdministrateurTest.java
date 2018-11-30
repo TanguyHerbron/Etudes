@@ -70,7 +70,8 @@ public class AdministrateurTest {
     }
 
 
-    //TODO Détailler modification par rapport au stock entreprise/administrateur (passage d'un stockage chez l'admin à un stockage dans l'entreprise)
+    //J'ai ici modifié le test unitaire pour que l'on vérifie le stock de l'entreprise et non de l'administrateur.
+    //Il me semblait plus logique que lors de la récupération du matériel, ce soit l'entreprise qui le récupère plutôt que l'admin ramèune ça chez lui.
     @Test
     public void recupererMateriel() {
         int stockActuel = admin.listeMateriel().size();

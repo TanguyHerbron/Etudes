@@ -15,7 +15,10 @@ public class Administrateur extends Employe {
         LOG.debug("Création d'un administrateur");
     }
 
-    //TODO Expliquer le fonctionnement de la méthode en détail
+    //La méthode attribuerMateriel fonctionne de la manière suivante :
+    //Si l'empruntable n'a aucune limitation, on retourne le succès ou l'échec de l'ajout à la liste du stock.
+    //Si une limitation est présente, on vérifie d'abord si l'emprunteur est bien une entreprise ou un agent.
+    //Ensuite on retourne le succès ou l'échec de l'ajout à la liste stock.
     public boolean attribuerMateriel(Empruntable empruntable, Emprunteur emprunteur)
     {
         if(empruntable.isLimitationPretAuxAgence())
@@ -63,7 +66,10 @@ public class Administrateur extends Employe {
         return agence.listeMateriel();
     }
 
-    //TODO Détailler cette méthode
+    //On vérifie d'abord si le premier emprunteur possède bien l'empruntable qu'il faut transférer
+    //Si l'attribution à l'autre emprunteur est validée, on enlève le matériel de l'envoyeur
+    //Cela évite de transférer un empruntable si la cible n'a pas les autorisations d'avoir cet objet
+    //Ex : Un empruntable avec limitation ne peut pas aller à un employé
     public void transfererMateriel(Emprunteur emprunteurSend, Empruntable empruntable, Emprunteur emprunteurReceive)
     {
         if(emprunteurSend.listeMateriel().contains(empruntable))
@@ -75,8 +81,8 @@ public class Administrateur extends Employe {
         }
     }
 
-    //TODO Détailler pourquoi passer parmis les employés de l'agence ET de l'entreprise (SS2I)
-    //TODO Peut-être passer par toutes les agences de l'entreprise ?
+    //On supprime le matériel de l'intégralité de l'entreprise, donc aussi de chaque agence et de chaque employé de l'entreprise ainsi que de chaque agence.
+    //On vérifie bien que le matériel est supprimé de toutes les agences indépendamment des entreprises (en cas de membres provenant d'SS2I)
     public void supprimerMateriel(Empruntable empruntable)
     {
         entreprise.perdreMateriel(empruntable);
