@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="619befff-b456-45da-9393-c820ac461b67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Agence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Employe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Empruntable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Entreprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/CasqueAvecMicro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/Clavier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/Ecran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/Imprimante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/PCPortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/Router.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/Souris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/TELPortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/UC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/material/VideoProjecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,13 +22,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5767" />
+          <entry key="java" value="6039" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5767" />
+          <entry key="JAVA" value="6039" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -67,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AdministrateurTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+            <state relative-caret-position="192">
+              <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/Administrateur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="418">
+              <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2369#2370#0" expanded="true" />
@@ -137,6 +119,8 @@
                 <element signature="e#2538#2539#0" expanded="true" />
                 <element signature="e#2610#2611#0" expanded="true" />
                 <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#3314#3315#0" expanded="true" />
+                <element signature="e#3356#3357#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -298,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543595514185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543595835467" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -359,15 +343,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 17m 39s.xml">
-      <configuration name="AdministrateurTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 19m 10s.xml">
-      <configuration name="AdministrateurTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 21m 50s.xml">
-      <configuration name="AdministrateurTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AdministrateurTest - 2018.11.30 at 17h 25m 10s.xml">
       <configuration name="AdministrateurTest" configurationId="JUnit" />
     </history-entry>
@@ -389,6 +364,15 @@
     <history-entry file="AdministrateurTest - 2018.11.30 at 17h 29m 16s.xml">
       <configuration name="AdministrateurTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 29m 46s.xml">
+      <configuration name="AdministrateurTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 30m 31s.xml">
+      <configuration name="AdministrateurTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdministrateurTest - 2018.11.30 at 17h 31m 57s.xml">
+      <configuration name="AdministrateurTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +392,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24948454" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24948454" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -416,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -617,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AdministrateurTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        <state relative-caret-position="192">
+          <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Administrateur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="418">
+          <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2369#2370#0" expanded="true" />
@@ -637,6 +621,8 @@
             <element signature="e#2538#2539#0" expanded="true" />
             <element signature="e#2610#2611#0" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -117,4 +117,14 @@ public class Administrateur extends Employe {
             index++;
         }
     }
+
+    /*public Agence getAgencePlusMaterielDefectueux()
+    {
+
+    }*/
+
+    public void achatDeMateriel(Empruntable empruntable)
+    {
+        entreprise.ajouterAuStock(empruntable);
+    }
 }
