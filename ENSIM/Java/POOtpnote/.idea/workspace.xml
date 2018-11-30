@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="619befff-b456-45da-9393-c820ac461b67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Administrateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Agence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Agence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Empruntable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Empruntable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Emprunteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Entreprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Entreprise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdministrateurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdministrateurTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmprunteurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmprunteurTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="619befff-b456-45da-9393-c820ac461b67" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +14,7 @@
     <session id="150145526">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -327,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543598214714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543598216669" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -440,7 +433,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
