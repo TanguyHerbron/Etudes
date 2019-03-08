@@ -1,0 +1,4 @@
+L'affichage des map permet de gérer un cache pour éviter de rechercher systématiquement les cartes.
+Ce cache est géré par la classe  org.jdesktop.swingx.mapviewer.TileCache.
+
+Comment créer un cache disque ou un cache mémoire utilisable par MapViewer?

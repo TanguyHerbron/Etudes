@@ -1,0 +1,36 @@
+19:11:22,291 DEBUG fr.ensim.dp.cache.DiskCacheTest - Testing DiskCache
+19:11:22,295 DEBUG fr.ensim.dp.cache.handler.LogHandler - Writing 3 bytes in memory at index FIRSTTILE
+19:11:22,295 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data written : 1
+19:11:22,759 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Compressing 16 bytes
+19:11:22,759 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data compressed into : 25 bytes
+19:11:22,767 DEBUG fr.ensim.dp.cache.handler.LogHandler - Writing 6 bytes in memory at index SECONDBUFFER
+19:11:22,767 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data written : 2
+19:11:22,767 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Compressing 16 bytes
+19:11:22,767 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data compressed into : 25 bytes
+19:11:22,775 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Decompressing 25 bytes
+19:11:22,779 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data decompressed into : 16 bytes
+19:11:22,779 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data read : 1
+19:11:22,779 DEBUG fr.ensim.dp.cache.handler.LogHandler - Retrieved 3 bytes from memory cache from index FIRSTTILE
+19:11:22,783 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Decompressing 25 bytes
+19:11:22,783 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data decompressed into : 16 bytes
+19:11:22,783 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data read : 2
+19:11:22,783 DEBUG fr.ensim.dp.cache.handler.LogHandler - Retrieved 6 bytes from memory cache from index SECONDBUFFER
+19:11:22,787 DEBUG fr.ensim.dp.cache.DiskCacheTest - End of DiskCache test
+19:11:22,795 DEBUG fr.ensim.dp.cache.MemoryCacheTest - Testing MemoryCache
+19:11:22,795 DEBUG fr.ensim.dp.cache.handler.LogHandler - Writing 3 bytes in memory at index buffer
+19:11:22,795 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data written : 1
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Compressing 16 bytes
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data compressed into : 25 bytes
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.LogHandler - Writing 6 bytes in memory at index buffer2
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data written : 2
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Compressing 16 bytes
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data compressed into : 25 bytes
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Decompressing 25 bytes
+19:11:22,799 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data decompressed into : 16 bytes
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data read : 1
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.LogHandler - Retrieved 3 bytes from memory cache from index buffer
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Decompressing 25 bytes
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.CompressHandler - Data decompressed into : 16 bytes
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.CountHandler - Nb data read : 2
+19:11:22,803 DEBUG fr.ensim.dp.cache.handler.LogHandler - Retrieved 6 bytes from memory cache from index buffer2
+19:11:22,807 DEBUG fr.ensim.dp.cache.MemoryCacheTest - End of MemoryCache test

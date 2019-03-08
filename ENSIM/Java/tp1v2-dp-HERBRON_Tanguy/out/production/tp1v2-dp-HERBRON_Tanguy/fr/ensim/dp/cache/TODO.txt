@@ -1,0 +1,5 @@
+Pattern Singleton
+-------------------------
+
+1- Créer un cache mémoire pour l'application.
+2- Créer un cache disque pour l'application. Il y a un cache disque par type de map
